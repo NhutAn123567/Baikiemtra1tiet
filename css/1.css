@@ -1,0 +1,101 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header-top {
+    background-image: url(../img/15305645876_218fd44c3c_o.jpg);
+    background-attachment:fixed;
+    background-size: 100% 100%;
+    margin: 0 auto !important;
+    padding: 90px 110px !important;
+    z-index:2;
+    min-height: 595px;
+    
+}
+#menu ul li a.left {
+    margin-right: 680px;
+    float: left;
+    
+}
+#menutren {
+    width: 100%;
+    
+    background-color: #1e252d;
+    min-height: 40px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menutren ul {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    margin: 11px 0 0;
+    margin-top: 100px;
+}
+#menutren ul li {
+    height: 10px;
+    padding: 0 5px;
+}
+#menutren ul li a {
+    color: white;
+    display: block;
+    height: 23px;
+    margin-top: -5px;
+    padding: 1px 7px;
+}
+#menu ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    margin: 11px 0 0;
+}
+#menu ul li {
+    height: 10px;
+    padding: 0 5px;
+}
+#menu ul li a {
+    color: white;
+    display: block;
+    height: 23px;
+    margin-top: -5px;
+    padding: 1px 7px;
+}
+#menu ul li a.menu-active {
+border: 2px solid #f9cfb6;
+height: 20px;
+margin-bottom: 15px;
+
+}
+#menu ul li a.menu1:hover {
+    
+    color: white;
+    box-shadow: 0 3px white;
+    transition: box-shadow 0.3s;
+    padding: 4px;
+} 
+hr {
+    margin-top: 10px;
+   
+}
+.giua .dong1 {
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.giua .dong2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
